@@ -1,0 +1,19 @@
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	gap: 92px;
+	align-items: center;
+	max-width: 1366px;
+
+	margin: auto;
+
+	height: 100%;
+	width: 100%;
+
+	.imgWrap {
+		.prevImg {
+			height: 706px;
+			width: 702px;
+		}
+	}
+}

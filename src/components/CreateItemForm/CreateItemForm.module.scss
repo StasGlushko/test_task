@@ -1,0 +1,60 @@
+.form {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+
+	margin: 36px 0 50px;
+
+	input {
+		border-radius: 3px;
+		background: rgba(255, 255, 255, 0.6);
+		height: 35px;
+	}
+
+	.textInput {
+		padding: 6px;
+		width: 192px;
+	}
+
+	.numInput {
+		width: 64px;
+		text-align: center;
+
+		&::-webkit-outer-spin-button,
+		&::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+		}
+
+		&[type='number'] {
+			-moz-appearance: textfield;
+		}
+
+		&:focus::placeholder {
+			color: transparent;
+		}
+	}
+
+	.submitBtn {
+		width: 101px;
+		height: 35px;
+
+		border-radius: 3px;
+		border: solid 2px #ffd700;
+		background-color: inherit;
+
+		color: #ffd700;
+		font-size: 20px;
+		font-weight: 400;
+
+		cursor: pointer;
+
+      transition: all .3s ease;
+
+      &:hover {
+         background-color: #ffd700;
+         color: black;
+      }
+	}
+}
