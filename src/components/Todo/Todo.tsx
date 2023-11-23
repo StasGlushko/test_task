@@ -6,7 +6,7 @@ export const Todo = () => {
 	return (
 		<div className={s.todo}>
 			<div className={s.content}>
-				<h1 className={s.title}>Shoping List</h1>
+				<h1 className={s.title}>Shopping List</h1>
 				<CreateItemForm />
 				<List />
 			</div>

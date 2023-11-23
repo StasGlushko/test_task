@@ -4,6 +4,7 @@
 	gap: 92px;
 	align-items: center;
 	max-width: 1366px;
+	position: relative;
 
 	margin: auto;
 
@@ -11,9 +12,15 @@
 	width: 100%;
 
 	.imgWrap {
+		position: absolute;
+		right: 20px;
+		top: 50%;
+		transform: translateY(-50%);
+		pointer-events: none;
+
 		.prevImg {
-			height: 706px;
-			width: 702px;
+			max-height: 666px;
+			max-width: 662px;
 		}
 	}
 }
